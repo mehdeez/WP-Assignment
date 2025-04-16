@@ -52,9 +52,9 @@ CREATE TABLE `airline` (
 --
 
 INSERT INTO `airline` (`airline_id`, `name`, `seats`) VALUES
-(1, 'AirAsia', 200),
-(2, 'Philippine Airline', 350),
-(3, 'Cebu Pacific', 180);
+(1, 'Biman Airlines', 200),
+(2, 'US-Bangla Airline', 350),
+(3, 'Novoair ', 180);
 
 -- --------------------------------------------------------
 
@@ -71,11 +71,11 @@ CREATE TABLE `cities` (
 --
 
 INSERT INTO `cities` (`city`) VALUES
-('Metro Manila'),
-('Pampanga'),
-('Cebu'),
-('Iloilo'),
-('Bacolod');
+('Dhaka'),
+('Chittagong'),
+('Khulna'),
+('Rangpur'),
+('Mymensingh');
 
 -- --------------------------------------------------------
 
