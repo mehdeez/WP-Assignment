@@ -1,9 +1,7 @@
-// Easy Responsive Tabs Plugin
-// Author: Samson.Onna <Email : samson3d@gmail.com>
+
 (function ($) {
     $.fn.extend({
         easyResponsiveTabs: function (options) {
-            //Set the default values, use comma to separate the settings, example:
             var defaults = {
                 type: 'default', //default, vertical, accordion;
                 width: 'auto',
